@@ -15,7 +15,7 @@ matrix:
 
 install:
   - appveyor DownloadFile https://win.rustup.rs/ -FileName rustup-init.ext
-  - rust up-init -yv --default-toolchain %CHANNEL% --default-host %TARGET%
+  - rustup-init -yv --default-toolchain %CHANNEL% --default-host %TARGET%
   - set PATH=%PATH%;%USERPROFILE%\.cargo\bin
   - rustc -vV
   - cargo -vV
