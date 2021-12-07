@@ -1,7 +1,6 @@
 //! `wordcount`は、シンプルな文字、単語または行の出現頻度を数える機能を提供する。
 //! なお、行は行数ではなく、その行で記録されている文字列が一致する行の数を数える。
 //! 詳しくは、[`count`](fn.count.html)関数のドキュメントを参照すること。
-#[warn(missing_docs)]
 use regex::Regex;
 use std::collections::HashMap;
 use std::io::BufRead;
@@ -143,6 +142,6 @@ mod tests {
     #[test]
     #[ignore]
     fn large_test() {
-        println!("{}", "large test");
+        println!("large test");
     }
 }
