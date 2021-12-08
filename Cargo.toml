@@ -8,6 +8,7 @@ description = "シンプルな文字、単語及び行の出現頻度を数え�
 repository = "https://github.com/xjr1300/wordcount"
 categories = ["command-line-utilities"]
 keywords = ["example", "frequency", "text"]
+exclude = ["text.txt", "tests/*", ".gitignore"]
 
 [badges]
 appveyor = { repository = "https://ci.appveyor.com/project/xjr1300/wordcount" }
