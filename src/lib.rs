@@ -40,7 +40,8 @@ impl Default for CountOption {
 /// 
 /// ```
 /// use std::io::Cursor;
-/// use wordcount::{count, CountOption};
+/// use bycycle_book_wordcount::{count, CountOption};
+/// 
 /// 
 /// let mut input = Cursor::new("aa bb cc bb");
 /// let freqs = count(input, CountOption::Word);
