@@ -1,6 +1,6 @@
 use std::io::Cursor;
 
-use wordcount::{count, CountOption};
+use bycycle_book_wordcount::{count, CountOption};
 
 #[macro_use]
 mod utils;
