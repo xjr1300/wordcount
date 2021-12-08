@@ -1,5 +1,5 @@
 [package]
-name = "bicycle-book-wordcount"
+name = "kuroyasu-bicycle-book-wordcount"
 version = "0.1.0"
 authors = ["Yasunori Ishiguro"]
 edition = "2021"
